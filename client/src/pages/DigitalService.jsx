@@ -56,7 +56,7 @@ export default function DigitalService({ onQuoteClick }) {
             <h2 style={{ color: '#1c1410', fontFamily: 'var(--font-heading)', fontSize: '2rem', fontWeight: 600, lineHeight: 1.3, margin: 0 }}>
               {c.cta.headline}
             </h2>
-            <Button variant="primary" size="lg" onClick={onQuoteClick}>
+            <Button variant="outline" size="lg" onClick={onQuoteClick}>
               {c.cta.label}
             </Button>
           </div>

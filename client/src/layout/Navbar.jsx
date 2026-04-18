@@ -47,7 +47,7 @@ export default function Navbar({ onQuoteClick }) {
 
         {/* Desktop CTA */}
         <div className="nav-desktop-cta">
-          <Button variant="primary" size="sm" onClick={onQuoteClick}>
+          <Button variant="outline" size="sm" onClick={onQuoteClick}>
             {c.ctaLabel}
           </Button>
         </div>
@@ -85,7 +85,7 @@ export default function Navbar({ onQuoteClick }) {
             </Link>
           ))}
           <div style={{ paddingTop: '0.75rem', marginTop: '0.25rem', borderTop: '1px solid rgba(184,92,56,0.3)' }}>
-            <Button variant="primary" size="md" onClick={onQuoteClick} style={{ width: '100%' }}>
+            <Button variant="outline" size="md" onClick={onQuoteClick} style={{ width: '100%' }}>
               {c.ctaLabel}
             </Button>
           </div>

@@ -61,7 +61,7 @@ export default function Hero({ onQuoteClick }) {
 
           {/* CTA */}
           <div className="fade-up animate delay-3" style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem' }}>
-            <Button variant="primary" size="lg" onClick={onQuoteClick}>
+            <Button variant="outline" size="lg" onClick={onQuoteClick}>
               {c.primaryCta.label}
             </Button>
           </div>
