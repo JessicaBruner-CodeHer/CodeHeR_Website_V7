@@ -64,7 +64,7 @@ function StatCard({ stat, value, index }) {
   const color = COLOR_MAP[stat.color] ?? COLOR_MAP.gold
   return (
     <div
-      className="fade-up"
+      className="fade-up animate"
       style={{
         display:       'flex',
         flexDirection: 'column',
