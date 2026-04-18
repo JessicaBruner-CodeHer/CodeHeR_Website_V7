@@ -8,7 +8,7 @@ const startServer = async () => {
       throw new Error("MONGODB_URI is not defined in environment variables");
     }
 
-    await mongoose.connect(env.mongodbUri);
+    await mongoose.connect(env.mongodbUri, { dbName: "codeher" });
     console.log("MongoDB connected");
 
     app.listen(env.port, () => {
