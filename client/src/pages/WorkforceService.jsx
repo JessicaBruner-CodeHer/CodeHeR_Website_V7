@@ -65,25 +65,31 @@ export default function WorkforceService({ onQuoteClick }) {
 }
 
 function ApproachSection({ c }) {
-  const [ref, visible] = useInView()
+  const [headRef, headVisible] = useInView()
+  const [bodyRef, bodyVisible] = useInView()
   return (
     <section style={{ paddingTop: '7rem', paddingBottom: '7rem', background: 'var(--color-surface-cream)', borderTop: '1px solid var(--color-border-light)' }}>
       <div className="site-container">
-        <div ref={ref} className={`fade-up${visible ? ' visible' : ''}`} style={{ maxWidth: '48rem' }}>
-          <h2 className="heading-section" style={{ fontFamily: 'var(--font-heading)', fontWeight: 600, lineHeight: 1.25, marginBottom: '3rem' }}>
-            <span style={{ color: '#1c1410', textShadow: '2px 2px 0px #c9973a' }}>Our</span>{' '}
-            <span style={{ color: '#c9973a', textShadow: '2px 2px 0px #1c1410' }}>Approach</span>
-          </h2>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
-            {c.whatItIs.body.map((para, i) => (
-              <p key={i} style={{ color: '#6f6256', fontSize: '1.15rem', lineHeight: '1.85' }}>
-                {i === 1
-                  ? <>At CodeHe<span style={{ color: '#B85C38' }}>&#123;R&#125;</span> LLC, we help businesses identify where policies, practices, and processes may be limiting visibility into qualified talent.</>
-                  : para
-                }
-              </p>
-            ))}
-          </div>
+        <h2
+          ref={headRef}
+          className={`heading-section fade-up${headVisible ? ' visible' : ''}`}
+          style={{ fontFamily: 'var(--font-heading)', fontWeight: 600, lineHeight: 1.25, marginBottom: '3rem' }}
+        >
+          <span style={{ color: '#1c1410', textShadow: '2px 2px 0px #c9973a' }}>Our</span>{' '}
+          <span style={{ color: '#c9973a', textShadow: '2px 2px 0px #1c1410' }}>Approach</span>
+        </h2>
+        <div
+          ref={bodyRef}
+          className={`fade-up delay-1${bodyVisible ? ' visible' : ''}`}
+          style={{ maxWidth: '48rem', display: 'flex', flexDirection: 'column', gap: '1.5rem' }}
+        >
+          <p style={{ color: '#6f6256', fontSize: '1.15rem', lineHeight: '1.85' }}>{c.whatItIs.body[0]}</p>
+          <p style={{ color: '#6f6256', fontSize: '1.15rem', lineHeight: '1.85' }}>
+            At CodeHe<span style={{ color: '#B85C38' }}>&#123;R&#125;</span> LLC, we help businesses identify where policies, practices, and processes may be limiting visibility into qualified talent.
+          </p>
+          <p style={{ color: '#6f6256', fontSize: '1.15rem', lineHeight: '1.85' }}>{c.whatItIs.body[2]}</p>
+          <p style={{ color: '#6f6256', fontSize: '1.15rem', lineHeight: '1.85' }}>{c.whatItIs.body[3]}</p>
+          <p style={{ color: '#6f6256', fontSize: '1.15rem', lineHeight: '1.85' }}>{c.whatItIs.body[4]}</p>
         </div>
       </div>
     </section>
