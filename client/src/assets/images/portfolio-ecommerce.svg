@@ -1,0 +1,46 @@
+<svg width="320" height="200" viewBox="0 0 320 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="320" height="200" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="320" height="26" fill="#FFFFFF"/>
+  <line x1="0" y1="26" x2="320" y2="26" stroke="#EEEEEE" stroke-width="1"/>
+  <text x="16" y="17" font-family="Arial" font-size="11" fill="#111111" font-weight="900" letter-spacing="4">FORM</text>
+  <text x="120" y="16" font-family="Arial" font-size="6.5" fill="#444" letter-spacing="1.5">NEW</text>
+  <text x="148" y="16" font-family="Arial" font-size="6.5" fill="#444" letter-spacing="1.5">SHOP</text>
+  <text x="178" y="16" font-family="Arial" font-size="6.5" fill="#444" letter-spacing="1.5">COLLECTIONS</text>
+  <text x="238" y="16" font-family="Arial" font-size="6.5" fill="#444" letter-spacing="1.5">ABOUT</text>
+  <circle cx="285" cy="13" r="4.5" fill="none" stroke="#111" stroke-width="1"/>
+  <line x1="288" y1="16" x2="291" y2="19" stroke="#111" stroke-width="1"/>
+  <rect x="298" y="8" width="8" height="9" rx="1" fill="none" stroke="#111" stroke-width="1"/>
+  <rect x="0" y="26" width="320" height="80" fill="#111111"/>
+  <rect x="180" y="26" width="140" height="80" fill="#1A1A1A"/>
+  <ellipse cx="255" cy="70" rx="50" ry="22" fill="#333333"/>
+  <ellipse cx="255" cy="68" rx="44" ry="18" fill="#444444"/>
+  <path d="M215 62 Q235 52 265 55 Q285 58 295 68 L215 68 Z" fill="#555555"/>
+  <path d="M225 62 Q245 54 268 57 Q282 60 290 66 L222 66 Z" fill="#666666"/>
+  <path d="M230 60 Q248 54 268 58" fill="none" stroke="#FF4444" stroke-width="2" opacity="0.8"/>
+  <rect x="235" y="55" width="24" height="8" rx="4" fill="#FFFFFF" opacity="0.9"/>
+  <text x="16" y="50" font-family="Arial" font-size="7" fill="#AAAAAA" letter-spacing="3">NEW ARRIVAL</text>
+  <text x="16" y="68" font-family="Arial" font-size="16" fill="#FFFFFF" font-weight="900">BEYOND</text>
+  <text x="16" y="85" font-family="Arial" font-size="16" fill="#FF4444" font-weight="900">LIMITS.</text>
+  <rect x="16" y="90" width="55" height="14" rx="2" fill="#FFFFFF"/>
+  <text x="43" y="100" font-family="Arial" font-size="6.5" fill="#111111" font-weight="700" text-anchor="middle" letter-spacing="0.5">SHOP NOW</text>
+  <rect x="8"   y="114" width="72" height="72" rx="6" fill="#F5F5F5"/>
+  <ellipse cx="44" cy="138" rx="22" ry="14" fill="#DDDDDD"/>
+  <rect x="30"  y="148" width="28" height="20" rx="4" fill="#CCCCCC"/>
+  <text x="44"  y="174" font-family="Arial" font-size="6.5" fill="#111" font-weight="700" text-anchor="middle">$129</text>
+  <text x="44"  y="182" font-family="Arial" font-size="5.5" fill="#999" text-anchor="middle">Classic Low</text>
+  <rect x="86"  y="114" width="72" height="72" rx="6" fill="#FFF0F0"/>
+  <ellipse cx="122" cy="138" rx="22" ry="14" fill="#FFCCCC"/>
+  <rect x="108" y="148" width="28" height="20" rx="4" fill="#FFAAAA"/>
+  <text x="122" y="174" font-family="Arial" font-size="6.5" fill="#111" font-weight="700" text-anchor="middle">$159</text>
+  <text x="122" y="182" font-family="Arial" font-size="5.5" fill="#999" text-anchor="middle">Air Runner</text>
+  <rect x="164" y="114" width="72" height="72" rx="6" fill="#F0F5FF"/>
+  <ellipse cx="200" cy="138" rx="22" ry="14" fill="#BBCCFF"/>
+  <rect x="186" y="148" width="28" height="20" rx="4" fill="#99AAFF"/>
+  <text x="200" y="174" font-family="Arial" font-size="6.5" fill="#111" font-weight="700" text-anchor="middle">$189</text>
+  <text x="200" y="182" font-family="Arial" font-size="5.5" fill="#999" text-anchor="middle">Pro Boost</text>
+  <rect x="242" y="114" width="72" height="72" rx="6" fill="#F5FFF0"/>
+  <ellipse cx="278" cy="138" rx="22" ry="14" fill="#BBEECC"/>
+  <rect x="264" y="148" width="28" height="20" rx="4" fill="#99DD99"/>
+  <text x="278" y="174" font-family="Arial" font-size="6.5" fill="#111" font-weight="700" text-anchor="middle">$145</text>
+  <text x="278" y="182" font-family="Arial" font-size="5.5" fill="#999" text-anchor="middle">Trail Max</text>
+</svg>

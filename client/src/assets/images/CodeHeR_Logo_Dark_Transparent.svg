@@ -1,0 +1,26 @@
+<svg width="600" height="200" viewBox="0 0 600 200" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>CodeHe{R} LLC — The Business Solution (Dark Background)</title>
+  <desc>CodeHe{R} LLC logo with gold hexagon emblem and warm monospace wordmark optimized for dark backgrounds.</desc>
+
+  <!-- Hex emblem -->
+  <polygon points="74,38 114,15 154,38 154,84 114,107 74,84" fill="#C9973A"/>
+  <polygon points="78,41 114,21 150,41 150,81 114,101 78,81" fill="none" stroke="#E8D5B0" stroke-width="2"/>
+  <polygon points="74,46 111,27 148,46 148,78 111,97 74,78" fill="#FFFFFF" fill-opacity="0"/>
+  <text x="114" y="70" text-anchor="middle" fill="#1C1410" font-family="'Courier New', monospace" font-weight="700" font-size="30">R</text>
+
+  <!-- Wordmark — "Code" changed to cream #F5ECD7 for dark backgrounds -->
+  <text x="175" y="84" font-family="'Courier New', monospace" font-weight="700" font-size="52">
+    <tspan fill="#F5ECD7">Code</tspan><tspan fill="#C9973A">He</tspan><tspan fill="#B85C38">{R}</tspan><tspan fill="#9C8B78" font-size="18" dy="-8"> LLC</tspan>
+  </text>
+
+  <!-- Divider rule -->
+  <line x1="175" y1="100" x2="562" y2="100" stroke="#C9973A" stroke-width="1.5"/>
+
+  <!-- Dot accents -->
+  <circle cx="175" cy="118" r="3" fill="#C9973A"/>
+  <circle cx="187" cy="118" r="3" fill="#B85C38"/>
+  <circle cx="199" cy="118" r="3" fill="#C8B89A"/>
+
+  <!-- Tagline -->
+  <text x="212" y="123" fill="#9C8B78" font-family="Arial, sans-serif" font-size="12" letter-spacing="3">Business Solutions Firm</text>
+</svg>

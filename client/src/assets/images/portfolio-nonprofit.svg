@@ -1,0 +1,42 @@
+<svg width="320" height="200" viewBox="0 0 320 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="320" height="200" fill="#FFFBF5"/>
+  <rect x="0" y="0" width="320" height="8" fill="#C9973A"/>
+  <rect x="0" y="8" width="320" height="24" fill="#FFFFFF"/>
+  <line x1="0" y1="32" x2="320" y2="32" stroke="#F0E8D8" stroke-width="1"/>
+  <text x="16" y="24" font-family="Arial" font-size="8" fill="#1C1410" font-weight="900" letter-spacing="1">RISE</text>
+  <text x="44" y="24" font-family="Arial" font-size="5.5" fill="#C9973A" font-weight="700">FOUNDATION</text>
+  <rect x="255" y="14" width="50" height="13" rx="6" fill="#C9973A"/>
+  <text x="280" y="23" font-family="Arial" font-size="6" fill="#FFFFFF" font-weight="700" text-anchor="middle" letter-spacing="0.5">DONATE NOW</text>
+  <text x="172" y="23" font-family="Arial" font-size="6" fill="#666" letter-spacing="1">MISSION</text>
+  <text x="205" y="23" font-family="Arial" font-size="6" fill="#666" letter-spacing="1">PROGRAMS</text>
+  <text x="242" y="23" font-family="Arial" font-size="6" fill="#666" letter-spacing="1">IMPACT</text>
+  <text x="16" y="56" font-family="Arial" font-size="7" fill="#C9973A" letter-spacing="3" font-weight="700">BUILDING FUTURES SINCE 2008</text>
+  <text x="16" y="76" font-family="Georgia, serif" font-size="18" fill="#1C1410" font-weight="700">Every Person</text>
+  <text x="16" y="96" font-family="Georgia, serif" font-size="18" fill="#C9973A" font-weight="700">Deserves a Chance.</text>
+  <text x="16" y="112" font-family="Arial" font-size="6.5" fill="#6F6256">Connecting underserved communities</text>
+  <text x="16" y="123" font-family="Arial" font-size="6.5" fill="#6F6256">to jobs, housing, and opportunity.</text>
+  <rect x="16" y="132" width="70" height="16" rx="3" fill="#C9973A"/>
+  <text x="51"  y="143" font-family="Arial" font-size="7" fill="#FFFFFF" font-weight="700" text-anchor="middle">GET INVOLVED</text>
+  <rect x="92"  y="132" width="55" height="16" rx="3" fill="none" stroke="#C9973A" stroke-width="1.2"/>
+  <text x="119" y="143" font-family="Arial" font-size="7" fill="#C9973A" font-weight="700" text-anchor="middle">OUR IMPACT</text>
+  <rect x="185" y="36" width="125" height="128" rx="8" fill="#FFF5E8"/>
+  <rect x="185" y="36" width="125" height="128" rx="8" fill="none" stroke="#F0E0C0" stroke-width="1"/>
+  <text x="247" y="54"  font-family="Arial" font-size="7" fill="#C9973A" font-weight="700" text-anchor="middle" letter-spacing="1">2024 IMPACT</text>
+  <line x1="200" y1="60" x2="295" y2="60" stroke="#F0E0C0" stroke-width="1"/>
+  <text x="247" y="80"  font-family="Arial" font-size="22" fill="#1C1410" font-weight="900" text-anchor="middle">12,400</text>
+  <text x="247" y="91"  font-family="Arial" font-size="5.5" fill="#9C8B78" text-anchor="middle" letter-spacing="0.5">PEOPLE SERVED</text>
+  <line x1="200" y1="98" x2="295" y2="98" stroke="#F0E0C0" stroke-width="0.8"/>
+  <text x="247" y="116" font-family="Arial" font-size="22" fill="#1C1410" font-weight="900" text-anchor="middle">89%</text>
+  <text x="247" y="127" font-family="Arial" font-size="5.5" fill="#9C8B78" text-anchor="middle" letter-spacing="0.5">FOUND EMPLOYMENT</text>
+  <line x1="200" y1="134" x2="295" y2="134" stroke="#F0E0C0" stroke-width="0.8"/>
+  <text x="247" y="152" font-family="Arial" font-size="22" fill="#C9973A" font-weight="900" text-anchor="middle">$2.4M</text>
+  <text x="247" y="163" font-family="Arial" font-size="5.5" fill="#9C8B78" text-anchor="middle" letter-spacing="0.5">COMMUNITY INVESTMENT</text>
+  <rect x="0" y="168" width="320" height="32" fill="#1C1410"/>
+  <text x="16"  y="181" font-family="Arial" font-size="6" fill="#C9973A" letter-spacing="2">PARTNER ORGANIZATIONS</text>
+  <rect x="16"  y="185" width="40" height="10" rx="2" fill="#FFFFFF" opacity="0.1"/>
+  <rect x="62"  y="185" width="40" height="10" rx="2" fill="#FFFFFF" opacity="0.1"/>
+  <rect x="108" y="185" width="40" height="10" rx="2" fill="#FFFFFF" opacity="0.1"/>
+  <rect x="154" y="185" width="40" height="10" rx="2" fill="#FFFFFF" opacity="0.1"/>
+  <rect x="200" y="185" width="40" height="10" rx="2" fill="#FFFFFF" opacity="0.1"/>
+  <rect x="246" y="185" width="40" height="10" rx="2" fill="#FFFFFF" opacity="0.1"/>
+</svg>
