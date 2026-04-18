@@ -230,7 +230,7 @@ export default function BadgeForm({ onSuccess }) {
           )}
 
           {/* Submit */}
-          <Button type="submit" variant="primary" size="lg" disabled={status === 'submitting'} style={{ width: '100%' }}>
+          <Button type="submit" variant="outline" size="lg" disabled={status === 'submitting'} style={{ width: '100%' }}>
             {status === 'submitting' ? (
               <><span className="spinner" style={{ width: '1rem', height: '1rem', borderRadius: '9999px', border: '2px solid rgba(28,20,16,0.3)', borderTopColor: 'var(--color-bg-main)', display: 'inline-block' }} /> Sending…</>
             ) : 'Submit Request'}
