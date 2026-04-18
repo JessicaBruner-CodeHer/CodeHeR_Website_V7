@@ -40,8 +40,8 @@ export default function Mission() {
         {/* Title */}
         <h2
           ref={headRef}
-          className={`fade-up${headVisible ? ' visible' : ''}`}
-          style={{ fontFamily: 'var(--font-heading)', fontSize: 'clamp(2rem, 4vw, 3rem)', fontWeight: 600, lineHeight: 1.25, marginBottom: '2.5rem' }}
+          className={`heading-section fade-up${headVisible ? ' visible' : ''}`}
+          style={{ fontFamily: 'var(--font-heading)', fontWeight: 600, lineHeight: 1.25, marginBottom: '2.5rem' }}
         >
           <span style={{ color: '#f5ecd7', textShadow: '2px 2px 0px #c9973a' }}>Our</span>{' '}
           <span style={{ color: '#c9973a', textShadow: '2px 2px 0px #1c1410' }}>Promise</span>
@@ -50,10 +50,9 @@ export default function Mission() {
         {/* Statement */}
         <blockquote
           ref={quoteRef}
-          className={`fade-up delay-1${quoteVisible ? ' visible' : ''}`}
+          className={`heading-quote fade-up delay-1${quoteVisible ? ' visible' : ''}`}
           style={{
             fontFamily: 'var(--font-heading)',
-            fontSize: 'clamp(1.25rem, 3vw, 2rem)',
             fontWeight: 600,
             color: 'var(--color-text-light)',
             textAlign: 'center',

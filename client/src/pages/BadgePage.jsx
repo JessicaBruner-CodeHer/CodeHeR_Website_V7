@@ -16,8 +16,8 @@ export default function BadgePage() {
             {/* Left — context */}
             <div>
               <h1
-                className="fade-up animate"
-                style={{ fontFamily: 'var(--font-heading)', fontSize: 'clamp(2rem, 5vw, 3rem)', fontWeight: 600, lineHeight: 1.25, marginBottom: '1.5rem' }}
+                className="fade-up animate heading-section"
+                style={{ fontFamily: 'var(--font-heading)', fontWeight: 600, lineHeight: 1.25, marginBottom: '1.5rem' }}
               >
                 <span style={{ color: '#1c1410', textShadow: '2px 2px 0px #c9973a' }}>NoMore</span>
                 <span style={{ color: '#c9973a', textShadow: '2px 2px 0px #1c1410' }}>Labels</span>

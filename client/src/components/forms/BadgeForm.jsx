@@ -1,12 +1,16 @@
 import { useState, useEffect } from 'react'
 import { useRouter } from '../../router.jsx'
 import Button from '../../ui/Button.jsx'
+import badgeGold      from '../../assets/images/NoMoreLabels_Badge_Hex_Gold.svg'
+import badgeIvory     from '../../assets/images/NoMoreLabels_Badge_Hex_Ivory.svg'
+import badgeAmberRust from '../../assets/images/NoMoreLabels_Badge_Hex_AmberRust.svg'
+import badgeDark      from '../../assets/images/NoMoreLabels_Badge_Hex_Dark.svg'
 
 const BADGE_OPTIONS = [
-  { id: 'Gold',     label: 'Gold',     src: '/NoMoreLabels_Badge_Hex_Gold.svg',       bg: '#1c1410' },
-  { id: 'Ivory',    label: 'Ivory',    src: '/NoMoreLabels_Badge_Hex_Ivory.svg',      bg: '#1c1410' },
-  { id: 'Standard', label: 'Standard', src: '/NoMoreLabels_Badge_Hex_AmberRust.svg',  bg: '#f5ecd7' },
-  { id: 'Dark',     label: 'Dark',     src: '/NoMoreLabels_Badge_Hex_Dark.svg',        bg: '#f5ecd7' },
+  { id: 'Gold',     label: 'Gold',     src: badgeGold,      bg: '#1c1410' },
+  { id: 'Ivory',    label: 'Ivory',    src: badgeIvory,     bg: '#1c1410' },
+  { id: 'Standard', label: 'Standard', src: badgeAmberRust, bg: '#f5ecd7' },
+  { id: 'Dark',     label: 'Dark',     src: badgeDark,      bg: '#f5ecd7' },
 ]
 
 export default function BadgeForm({ onSuccess }) {

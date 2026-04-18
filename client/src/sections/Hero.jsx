@@ -1,5 +1,7 @@
 import { heroContent as c } from '../assets/constants/siteContent.js'
 import Button from '../ui/Button.jsx'
+import logoDark from '../assets/images/CodeHeR_Logo_Dark_Transparent.svg'
+import logoLight from '../assets/images/CodeHeR_Logo_Transparent.svg'
 
 export default function Hero({ onQuoteClick }) {
   return (
@@ -8,7 +10,7 @@ export default function Hero({ onQuoteClick }) {
       {/* Left panel — inkwell dark (desktop only) */}
       <div className="hero-left">
         <img
-          src="/CodeHeR_Logo_Dark_Transparent.svg"
+          src={logoDark}
           alt="CodeHeR LLC"
           className="fade-up animate"
           style={{ width: '100%', maxWidth: '420px' }}
@@ -29,13 +31,13 @@ export default function Hero({ onQuoteClick }) {
 
           {/* Logo — mobile only */}
           <div className="hero-mobile-logo fade-up animate">
-            <img src="/CodeHeR_Logo_Transparent.svg" alt="CodeHeR LLC" style={{ width: '100%', maxWidth: '300px' }} />
+            <img src={logoLight} alt="CodeHeR LLC" style={{ width: '100%', maxWidth: '300px' }} />
           </div>
 
           {/* Headline */}
           <h1
-            className="fade-up animate delay-1"
-            style={{ fontFamily: 'var(--font-heading)', fontSize: 'clamp(2.5rem, 6vw, 3.5rem)', fontWeight: 600, lineHeight: 1.3, color: 'var(--color-text-strong)', marginBottom: '1.5rem' }}
+            className="fade-up animate delay-1 heading-hero"
+            style={{ fontFamily: 'var(--font-heading)', fontWeight: 600, lineHeight: 1.3, color: 'var(--color-text-strong)', marginBottom: '1.5rem' }}
           >
             <span style={{ display: 'block', marginBottom: '0.5rem' }}>
               <span style={{ color: '#1c1410', textShadow: '2px 2px 0px #c9973a', marginRight: '0.75rem' }}>Your</span>

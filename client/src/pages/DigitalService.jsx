@@ -34,8 +34,8 @@ export default function DigitalService({ onQuoteClick }) {
       <section style={{ paddingTop: '7rem', paddingBottom: '7rem', background: 'var(--color-bg-main)' }}>
         <div className="site-container">
           <h1 className="fade-up animate" style={{ fontFamily: 'var(--font-heading)', fontWeight: 600, lineHeight: 1.25, marginBottom: '1.5rem' }}>
-            <span style={{ fontSize: 'clamp(2.5rem, 6vw, 3.5rem)', color: '#f5ecd7', textShadow: '2px 2px 0px #c9973a' }}>The</span>{' '}
-            <span style={{ fontSize: 'clamp(2.5rem, 6vw, 3.5rem)', color: '#c9973a', textShadow: '2px 2px 0px #1c1410' }}>Intersection</span>
+            <span className="heading-hero" style={{ color: '#f5ecd7', textShadow: '2px 2px 0px #c9973a' }}>The</span>{' '}
+            <span className="heading-hero" style={{ color: '#c9973a', textShadow: '2px 2px 0px #1c1410' }}>Intersection</span>
             <span style={{ display: 'block', fontSize: '1.35rem', fontWeight: 400, color: '#c8bfb4', textShadow: 'none', marginTop: '0.75rem' }}>
               OF TECHNOLOGY
             </span>
@@ -74,8 +74,8 @@ function ServicesSection({ c }) {
       <div className="site-container">
         <h2
           ref={ref}
-          className={`fade-up${visible ? ' visible' : ''}`}
-          style={{ fontFamily: 'var(--font-heading)', fontSize: 'clamp(2rem, 4vw, 3rem)', fontWeight: 600, lineHeight: 1.25, marginBottom: '3rem' }}
+          className={`heading-section fade-up${visible ? ' visible' : ''}`}
+          style={{ fontFamily: 'var(--font-heading)', fontWeight: 600, lineHeight: 1.25, marginBottom: '3rem' }}
         >
           <span style={{ color: '#1c1410', textShadow: '2px 2px 0px #c9973a' }}>Our</span>{' '}
           <span style={{ color: '#c9973a', textShadow: '2px 2px 0px #1c1410' }}>Services</span>
@@ -120,8 +120,8 @@ function PortfolioSection({ c }) {
       <div className="site-container">
         <h2
           ref={ref}
-          className={`fade-up${visible ? ' visible' : ''}`}
-          style={{ fontFamily: 'var(--font-heading)', fontSize: 'clamp(2rem, 4vw, 3rem)', fontWeight: 600, lineHeight: 1.25, marginBottom: '3rem' }}
+          className={`heading-section fade-up${visible ? ' visible' : ''}`}
+          style={{ fontFamily: 'var(--font-heading)', fontWeight: 600, lineHeight: 1.25, marginBottom: '3rem' }}
         >
           <span style={{ color: '#1c1410', textShadow: '2px 2px 0px #c9973a' }}>Our</span>{' '}
           <span style={{ color: '#c9973a', textShadow: '2px 2px 0px #1c1410' }}>Examples</span>

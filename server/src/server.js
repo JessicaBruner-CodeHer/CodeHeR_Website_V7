@@ -10,6 +10,7 @@ const startServer = async () => {
 
     await mongoose.connect(env.mongodbUri, { dbName: "codeher" });
     console.log("MongoDB connected");
+    console.log(`BLS API key: ${env.blsApiKey ? 'loaded' : 'MISSING — check server/.env'}`);
 
     app.listen(env.port, () => {
       console.log(`Server running on port ${env.port}`);

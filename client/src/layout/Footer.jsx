@@ -1,5 +1,6 @@
 import { Link } from '../router.jsx'
 import { footerContent as c } from '../assets/constants/siteContent.js'
+import badgeGold from '../assets/images/NoMoreLabels_Badge_Hex_Gold.svg'
 
 export default function Footer() {
   return (
@@ -68,7 +69,7 @@ export default function Footer() {
 
           {/* NoMoreLabels Badge */}
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.75rem' }}>
-            <img src="/NoMoreLabels_Badge_Hex_Gold.svg" alt="NoMoreLabels Badge" style={{ width: '100%', maxWidth: '180px' }} />
+            <img src={badgeGold} alt="NoMoreLabels Badge" style={{ width: '100%', maxWidth: '180px' }} />
           </div>
 
         </div>

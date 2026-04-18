@@ -29,8 +29,8 @@ export default function ServicesTeaser() {
 
         <h2
           ref={headRef}
-          className={`fade-up${headVisible ? ' visible' : ''}`}
-          style={{ fontFamily: 'var(--font-heading)', fontSize: 'clamp(2rem, 4vw, 3rem)', fontWeight: 600, lineHeight: 1.25 }}
+          className={`fade-up heading-section${headVisible ? ' visible' : ''}`}
+          style={{ fontFamily: 'var(--font-heading)', fontWeight: 600, lineHeight: 1.25 }}
         >
           <span style={{ color: '#1c1410', textShadow: '2px 2px 0px #c9973a' }}>Our</span>{' '}
           <span style={{ color: '#c9973a', textShadow: '2px 2px 0px #1c1410' }}>Solutions</span>

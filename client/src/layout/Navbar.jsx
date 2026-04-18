@@ -32,11 +32,6 @@ export default function Navbar({ onQuoteClick }) {
     }}>
       <div className="site-container" style={{ height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '1.5rem' }}>
 
-        {/* Logo */}
-        <Link to="/" style={{ fontFamily: 'var(--font-heading)', fontSize: '1.25rem', fontWeight: 600, color: 'var(--color-text-strong)' }}>
-          CodeHe<span style={{ color: '#B85C38' }}>&#123;R&#125;</span> LLC
-        </Link>
-
         {/* Desktop nav */}
         <nav className="nav-desktop-links" aria-label="Main navigation">
           {c.links.map((link) => (

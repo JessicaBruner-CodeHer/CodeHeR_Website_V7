@@ -14,8 +14,8 @@ export default function WorkforceService({ onQuoteClick }) {
       <section style={{ paddingTop: '7rem', paddingBottom: '7rem', background: 'var(--color-surface-cream)', borderBottom: '1px solid var(--color-border-light)' }}>
         <div className="site-container">
           <h1 className="fade-up animate" style={{ fontFamily: 'var(--font-heading)', fontWeight: 600, lineHeight: 1.25, marginBottom: '1.5rem' }}>
-            <span style={{ fontSize: 'clamp(2.5rem, 6vw, 3.5rem)', color: '#1c1410', textShadow: '2px 2px 0px #c9973a' }}>The</span>{' '}
-            <span style={{ fontSize: 'clamp(2.5rem, 6vw, 3.5rem)', color: '#c9973a', textShadow: '2px 2px 0px #1c1410' }}>Intersection</span>
+            <span className="heading-hero" style={{ color: '#1c1410', textShadow: '2px 2px 0px #c9973a' }}>The</span>{' '}
+            <span className="heading-hero" style={{ color: '#c9973a', textShadow: '2px 2px 0px #1c1410' }}>Intersection</span>
             <span style={{ display: 'block', fontSize: '1.35rem', fontWeight: 400, color: '#6f6256', textShadow: 'none', marginTop: '0.75rem' }}>
               OF PEOPLE
             </span>
@@ -70,7 +70,7 @@ function ApproachSection({ c }) {
     <section style={{ paddingTop: '7rem', paddingBottom: '7rem', background: 'var(--color-surface-cream)', borderTop: '1px solid var(--color-border-light)' }}>
       <div className="site-container">
         <div ref={ref} className={`fade-up${visible ? ' visible' : ''}`} style={{ maxWidth: '48rem' }}>
-          <h2 style={{ fontFamily: 'var(--font-heading)', fontSize: 'clamp(2rem, 4vw, 3rem)', fontWeight: 600, lineHeight: 1.25, marginBottom: '3rem' }}>
+          <h2 className="heading-section" style={{ fontFamily: 'var(--font-heading)', fontWeight: 600, lineHeight: 1.25, marginBottom: '3rem' }}>
             <span style={{ color: '#1c1410', textShadow: '2px 2px 0px #c9973a' }}>Our</span>{' '}
             <span style={{ color: '#c9973a', textShadow: '2px 2px 0px #1c1410' }}>Approach</span>
           </h2>
@@ -97,8 +97,8 @@ function ProcessSection({ c }) {
       <div className="site-container">
         <h2
           ref={ref}
-          className={`fade-up${visible ? ' visible' : ''}`}
-          style={{ fontFamily: 'var(--font-heading)', fontSize: 'clamp(2rem, 4vw, 3rem)', fontWeight: 600, lineHeight: 1.25, marginBottom: '3rem' }}
+          className={`heading-section fade-up${visible ? ' visible' : ''}`}
+          style={{ fontFamily: 'var(--font-heading)', fontWeight: 600, lineHeight: 1.25, marginBottom: '3rem' }}
         >
           <span style={{ color: '#1c1410', textShadow: '2px 2px 0px #c9973a' }}>The</span>{' '}
           <span style={{ color: '#c9973a', textShadow: '2px 2px 0px #1c1410' }}>Process</span>
