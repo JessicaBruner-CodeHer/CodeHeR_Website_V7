@@ -6,9 +6,10 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 dotenv.config({ path: path.resolve(__dirname, "../../.env") });
 
 const env = {
-  port: process.env.PORT || 5000,
-  mongodbUri: process.env.MONGODB_URI,
-  blsApiKey: process.env.BLS_API_KEY,
+  port:         process.env.PORT || 5000,
+  mongodbUri:   process.env.MONGODB_URI,
+  blsApiKey:    process.env.BLS_API_KEY,
+  resendApiKey: process.env.RESEND_API_KEY,
 };
 
 export default env;

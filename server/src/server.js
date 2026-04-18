@@ -5,7 +5,8 @@ import env from "./config/env.js";
 const startServer = async () => {
   app.listen(env.port, () => {
     console.log(`Server running on port ${env.port}`);
-    console.log(`BLS API key: ${env.blsApiKey ? 'loaded' : 'MISSING — check server/.env'}`);
+    console.log(`BLS API key:    ${env.blsApiKey    ? 'loaded' : 'MISSING — check server/.env'}`);
+    console.log(`Resend API key: ${env.resendApiKey ? 'loaded' : 'MISSING — check server/.env'}`);
   });
 
   if (!env.mongodbUri) {
