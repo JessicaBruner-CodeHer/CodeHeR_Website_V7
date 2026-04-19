@@ -27,7 +27,7 @@ export default function WorkforceService({ onQuoteClick }) {
       <WorkforceStats />
 
       {/* Our Approach */}
-      <ApproachSection c={c} />
+      <ApproachSection />
 
       {/* Mid-page dark CTA */}
       <section style={{ paddingTop: '6rem', paddingBottom: '6rem', background: 'var(--color-bg-main)', borderTop: '1px solid rgba(255,255,255,0.06)' }}>
@@ -64,9 +64,41 @@ export default function WorkforceService({ onQuoteClick }) {
   )
 }
 
-function ApproachSection({ c }) {
+const APPROACH_CARDS = [
+  {
+    icon: (
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+        <circle cx="9" cy="7" r="4"/>
+        <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+        <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+      </svg>
+    ),
+    title: 'The Overlooked Workforce',
+    body:  'The workforce is not missing. It is being overlooked. We help businesses identify where policies, practices, and processes may be limiting visibility into qualified talent.',
+  },
+  {
+    icon: (
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+        <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+      </svg>
+    ),
+    title: 'Real-Time Assessment',
+    body:  'We assess how your current hiring approach is functioning in real time, identifying where policies, practices, and processes could be limiting qualified people.',
+  },
+  {
+    icon: (
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+        <circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/>
+      </svg>
+    ),
+    title: 'The Results',
+    body:  'The result is a more aligned hiring process, stronger candidate consideration, and a workforce strategy that supports long-term performance and retention.',
+  },
+]
+
+function ApproachSection() {
   const [headRef, headVisible] = useInView()
-  const [bodyRef, bodyVisible] = useInView()
   return (
     <section style={{ paddingTop: '7rem', paddingBottom: '7rem', background: 'var(--color-surface-cream)', borderTop: '1px solid var(--color-border-light)' }}>
       <div className="site-container">
@@ -78,21 +110,46 @@ function ApproachSection({ c }) {
           <span style={{ color: '#1c1410', textShadow: '2px 2px 0px #c9973a' }}>Our</span>{' '}
           <span style={{ color: '#c9973a', textShadow: '2px 2px 0px #1c1410' }}>Approach</span>
         </h2>
-        <div
-          ref={bodyRef}
-          className={`fade-up delay-1${bodyVisible ? ' visible' : ''}`}
-          style={{ maxWidth: '48rem', display: 'flex', flexDirection: 'column', gap: '1.5rem' }}
-        >
-          <p style={{ color: '#6f6256', fontSize: '1.15rem', lineHeight: '1.85' }}>{c.whatItIs.body[0]}</p>
-          <p style={{ color: '#6f6256', fontSize: '1.15rem', lineHeight: '1.85' }}>
-            At CodeHe<span style={{ color: '#B85C38' }}>&#123;R&#125;</span> LLC, we help businesses identify where policies, practices, and processes may be limiting visibility into qualified talent.
-          </p>
-          <p style={{ color: '#6f6256', fontSize: '1.15rem', lineHeight: '1.85' }}>{c.whatItIs.body[2]}</p>
-          <p style={{ color: '#6f6256', fontSize: '1.15rem', lineHeight: '1.85' }}>{c.whatItIs.body[3]}</p>
-          <p style={{ color: '#6f6256', fontSize: '1.15rem', lineHeight: '1.85' }}>{c.whatItIs.body[4]}</p>
+        <div className="grid-3" style={{ gap: '2.5rem' }}>
+          {APPROACH_CARDS.map((card, i) => (
+            <ApproachCard key={card.title} card={card} delay={i} />
+          ))}
         </div>
       </div>
     </section>
+  )
+}
+
+function ApproachCard({ card, delay }) {
+  const [ref, visible] = useInView({ rootMargin: '-60px' })
+  return (
+    <div
+      ref={ref}
+      className={`service-card fade-up delay-${delay + 1}${visible ? ' visible' : ''}`}
+    >
+      <div
+        className="hex-icon"
+        style={{
+          width: '4rem',
+          height: '4rem',
+          background: 'rgba(201,151,58,0.15)',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          color: 'var(--color-primary)',
+          flexShrink: 0,
+          filter: 'drop-shadow(4px 4px 0px #B85C38)',
+        }}
+      >
+        {card.icon}
+      </div>
+      <h3 style={{ fontFamily: 'var(--font-heading)', fontSize: '1.5rem', fontWeight: 600, color: 'var(--color-text-strong)', lineHeight: 1.375 }}>
+        {card.title}
+      </h3>
+      <p style={{ flex: 1, fontSize: '1rem', color: 'var(--color-text-muted)', lineHeight: '1.625' }}>
+        {card.body}
+      </p>
+    </div>
   )
 }
 
