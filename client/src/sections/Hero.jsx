@@ -13,7 +13,7 @@ export default function Hero({ onQuoteClick }) {
           src={logoDark}
           alt="CodeHeR LLC"
           className="fade-up animate"
-          style={{ width: '100%', maxWidth: '420px' }}
+          style={{ width: '100%' }}
         />
       </div>
 
@@ -40,8 +40,8 @@ export default function Hero({ onQuoteClick }) {
             style={{ fontFamily: 'var(--font-heading)', fontWeight: 600, lineHeight: 1.3, color: 'var(--color-text-strong)', marginBottom: '1.5rem' }}
           >
             <span style={{ display: 'block', marginBottom: '0.5rem' }}>
-              <span style={{ color: '#1c1410', textShadow: '2px 2px 0px #c9973a', marginRight: '0.75rem' }}>Your</span>
-              <span style={{ color: '#c9973a', textShadow: '2px 2px 0px #1c1410' }}>Business</span>
+              <span style={{ color: '#c9973a', textShadow: '2px 2px 0px #1c1410', marginRight: '0.75rem' }}>Your</span>
+              <span style={{ color: '#1c1410', textShadow: '2px 2px 0px #c9973a' }}>Business</span>
               <span style={{ color: 'var(--color-text-strong)' }}>.</span>
             </span>
             <span style={{ display: 'block' }}>
