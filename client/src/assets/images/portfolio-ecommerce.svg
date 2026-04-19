@@ -1,46 +1,148 @@
 <svg width="320" height="200" viewBox="0 0 320 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ec_hero" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF5F0"/>
+      <stop offset="100%" stop-color="#FFE8DC"/>
+    </linearGradient>
+    <linearGradient id="ec_img1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#EDE0D4"/>
+      <stop offset="100%" stop-color="#D8C8B8"/>
+    </linearGradient>
+    <linearGradient id="ec_img2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D4E4F0"/>
+      <stop offset="100%" stop-color="#BCCEDE"/>
+    </linearGradient>
+    <linearGradient id="ec_img3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#DDF0D8"/>
+      <stop offset="100%" stop-color="#C4DEC0"/>
+    </linearGradient>
+    <linearGradient id="ec_img4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F5EDD4"/>
+      <stop offset="100%" stop-color="#E4D8BC"/>
+    </linearGradient>
+  </defs>
+
   <rect width="320" height="200" fill="#FFFFFF"/>
-  <rect x="0" y="0" width="320" height="26" fill="#FFFFFF"/>
-  <line x1="0" y1="26" x2="320" y2="26" stroke="#EEEEEE" stroke-width="1"/>
-  <text x="16" y="17" font-family="Arial" font-size="11" fill="#111111" font-weight="900" letter-spacing="4">FORM</text>
-  <text x="120" y="16" font-family="Arial" font-size="6.5" fill="#444" letter-spacing="1.5">NEW</text>
-  <text x="148" y="16" font-family="Arial" font-size="6.5" fill="#444" letter-spacing="1.5">SHOP</text>
-  <text x="178" y="16" font-family="Arial" font-size="6.5" fill="#444" letter-spacing="1.5">COLLECTIONS</text>
-  <text x="238" y="16" font-family="Arial" font-size="6.5" fill="#444" letter-spacing="1.5">ABOUT</text>
-  <circle cx="285" cy="13" r="4.5" fill="none" stroke="#111" stroke-width="1"/>
-  <line x1="288" y1="16" x2="291" y2="19" stroke="#111" stroke-width="1"/>
-  <rect x="298" y="8" width="8" height="9" rx="1" fill="none" stroke="#111" stroke-width="1"/>
-  <rect x="0" y="26" width="320" height="80" fill="#111111"/>
-  <rect x="180" y="26" width="140" height="80" fill="#1A1A1A"/>
-  <ellipse cx="255" cy="70" rx="50" ry="22" fill="#333333"/>
-  <ellipse cx="255" cy="68" rx="44" ry="18" fill="#444444"/>
-  <path d="M215 62 Q235 52 265 55 Q285 58 295 68 L215 68 Z" fill="#555555"/>
-  <path d="M225 62 Q245 54 268 57 Q282 60 290 66 L222 66 Z" fill="#666666"/>
-  <path d="M230 60 Q248 54 268 58" fill="none" stroke="#FF4444" stroke-width="2" opacity="0.8"/>
-  <rect x="235" y="55" width="24" height="8" rx="4" fill="#FFFFFF" opacity="0.9"/>
-  <text x="16" y="50" font-family="Arial" font-size="7" fill="#AAAAAA" letter-spacing="3">NEW ARRIVAL</text>
-  <text x="16" y="68" font-family="Arial" font-size="16" fill="#FFFFFF" font-weight="900">BEYOND</text>
-  <text x="16" y="85" font-family="Arial" font-size="16" fill="#FF4444" font-weight="900">LIMITS.</text>
-  <rect x="16" y="90" width="55" height="14" rx="2" fill="#FFFFFF"/>
-  <text x="43" y="100" font-family="Arial" font-size="6.5" fill="#111111" font-weight="700" text-anchor="middle" letter-spacing="0.5">SHOP NOW</text>
-  <rect x="8"   y="114" width="72" height="72" rx="6" fill="#F5F5F5"/>
-  <ellipse cx="44" cy="138" rx="22" ry="14" fill="#DDDDDD"/>
-  <rect x="30"  y="148" width="28" height="20" rx="4" fill="#CCCCCC"/>
-  <text x="44"  y="174" font-family="Arial" font-size="6.5" fill="#111" font-weight="700" text-anchor="middle">$129</text>
-  <text x="44"  y="182" font-family="Arial" font-size="5.5" fill="#999" text-anchor="middle">Classic Low</text>
-  <rect x="86"  y="114" width="72" height="72" rx="6" fill="#FFF0F0"/>
-  <ellipse cx="122" cy="138" rx="22" ry="14" fill="#FFCCCC"/>
-  <rect x="108" y="148" width="28" height="20" rx="4" fill="#FFAAAA"/>
-  <text x="122" y="174" font-family="Arial" font-size="6.5" fill="#111" font-weight="700" text-anchor="middle">$159</text>
-  <text x="122" y="182" font-family="Arial" font-size="5.5" fill="#999" text-anchor="middle">Air Runner</text>
-  <rect x="164" y="114" width="72" height="72" rx="6" fill="#F0F5FF"/>
-  <ellipse cx="200" cy="138" rx="22" ry="14" fill="#BBCCFF"/>
-  <rect x="186" y="148" width="28" height="20" rx="4" fill="#99AAFF"/>
-  <text x="200" y="174" font-family="Arial" font-size="6.5" fill="#111" font-weight="700" text-anchor="middle">$189</text>
-  <text x="200" y="182" font-family="Arial" font-size="5.5" fill="#999" text-anchor="middle">Pro Boost</text>
-  <rect x="242" y="114" width="72" height="72" rx="6" fill="#F5FFF0"/>
-  <ellipse cx="278" cy="138" rx="22" ry="14" fill="#BBEECC"/>
-  <rect x="264" y="148" width="28" height="20" rx="4" fill="#99DD99"/>
-  <text x="278" y="174" font-family="Arial" font-size="6.5" fill="#111" font-weight="700" text-anchor="middle">$145</text>
-  <text x="278" y="182" font-family="Arial" font-size="5.5" fill="#999" text-anchor="middle">Trail Max</text>
+
+  <!-- NAV -->
+  <rect x="0" y="0" width="320" height="28" fill="#FFFFFF"/>
+  <rect x="0" y="28" width="320" height="1" fill="#EFEFEF"/>
+  <text x="16" y="19" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#111" font-weight="700" letter-spacing="5">FORM</text>
+  <text x="110" y="18" font-family="Helvetica, Arial, sans-serif" font-size="6.5" fill="#666" letter-spacing="1.5">NEW IN</text>
+  <text x="145" y="18" font-family="Helvetica, Arial, sans-serif" font-size="6.5" fill="#666" letter-spacing="1.5">WOMEN</text>
+  <text x="184" y="18" font-family="Helvetica, Arial, sans-serif" font-size="6.5" fill="#666" letter-spacing="1.5">MEN</text>
+  <text x="206" y="18" font-family="Helvetica, Arial, sans-serif" font-size="6.5" fill="#FF4A1C" letter-spacing="1.5" font-weight="700">SALE</text>
+  <!-- Search icon -->
+  <circle cx="264" cy="14" r="4.5" fill="none" stroke="#333" stroke-width="1.3"/>
+  <line x1="267.5" y1="17.5" x2="270.5" y2="20.5" stroke="#333" stroke-width="1.3"/>
+  <!-- Cart icon with dot -->
+  <rect x="279" y="8" width="10" height="12" rx="1.5" fill="none" stroke="#333" stroke-width="1.3"/>
+  <path d="M281 8 Q281 5 284 5 Q287 5 287 8" fill="none" stroke="#333" stroke-width="1.3"/>
+  <circle cx="291" cy="8" r="3" fill="#FF4A1C"/>
+  <text x="291" y="10.5" font-family="Helvetica, Arial, sans-serif" font-size="4.5" fill="#FFF" font-weight="700" text-anchor="middle">2</text>
+  <!-- Account -->
+  <circle cx="302" cy="13" r="4.5" fill="none" stroke="#333" stroke-width="1.3"/>
+  <circle cx="302" cy="11.5" r="2" fill="none" stroke="#333" stroke-width="1"/>
+  <path d="M297 19 Q302 16 307 19" fill="none" stroke="#333" stroke-width="1"/>
+
+  <!-- HERO SECTION -->
+  <rect x="0" y="29" width="156" height="94" fill="url(#ec_hero)"/>
+
+  <!-- Decorative large letter -->
+  <text x="-5" y="118" font-family="Georgia, 'Times New Roman', serif" font-size="110" fill="#FF4A1C" opacity="0.07" font-weight="700">F</text>
+
+  <text x="16" y="50" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#FF4A1C" letter-spacing="3.5" font-weight="700">SS'25 EDIT</text>
+
+  <text x="14" y="69" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#111" font-weight="700" letter-spacing="-0.5">WEAR</text>
+  <text x="14" y="90" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#111" font-weight="700" letter-spacing="-0.5">YOUR</text>
+  <text x="14" y="111" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#FF4A1C" font-weight="700" letter-spacing="-0.5">STORY.</text>
+
+  <rect x="16" y="103" width="72" height="15" rx="7.5" fill="#FF4A1C"/>
+  <text x="52" y="113" font-family="Helvetica, Arial, sans-serif" font-size="6.5" fill="#FFF" font-weight="700" text-anchor="middle" letter-spacing="1">SHOP NOW</text>
+
+  <!-- Hero image panel - clothing rack -->
+  <rect x="156" y="29" width="164" height="94" fill="#F5EDE4"/>
+  <!-- Rail -->
+  <line x1="168" y1="58" x2="308" y2="58" stroke="#C0ADA0" stroke-width="2.2"/>
+  <line x1="238" y1="50" x2="238" y2="58" stroke="#C0ADA0" stroke-width="1.8"/>
+  <path d="M231 50 Q238 44 245 50" fill="none" stroke="#C0ADA0" stroke-width="1.8"/>
+  <!-- Garments hanging -->
+  <rect x="171" y="58" width="16" height="38" rx="3" fill="#C4B4A4"/>
+  <rect x="171" y="58" width="16" height="5" rx="0" fill="#B4A494"/>
+  <path d="M171 62 L164 57 L171 57" fill="#B0A090"/>
+  <path d="M187 62 L194 57 L187 57" fill="#B0A090"/>
+
+  <rect x="196" y="58" width="15" height="42" rx="3" fill="#A8C0D4"/>
+  <rect x="196" y="58" width="15" height="5" fill="#98B0C4"/>
+  <path d="M196 62 L190 57 L196 57" fill="#90A8BC"/>
+  <path d="M211 62 L217 57 L211 57" fill="#90A8BC"/>
+
+  <rect x="220" y="58" width="18" height="36" rx="3" fill="#E0C8B0"/>
+  <rect x="220" y="58" width="18" height="5" fill="#D0B8A0"/>
+
+  <rect x="244" y="58" width="15" height="40" rx="3" fill="#B8D0B0"/>
+  <rect x="244" y="58" width="15" height="5" fill="#A8C0A0"/>
+
+  <rect x="264" y="58" width="17" height="36" rx="3" fill="#D8C4D4"/>
+  <rect x="264" y="58" width="17" height="5" fill="#C8B4C4"/>
+
+  <rect x="286" y="58" width="15" height="38" rx="3" fill="#D4C4A8"/>
+  <rect x="286" y="58" width="15" height="5" fill="#C4B498"/>
+
+  <!-- Price tag -->
+  <rect x="224" y="80" width="20" height="11" rx="2" fill="#FFFFFF"/>
+  <rect x="224" y="80" width="20" height="11" rx="2" fill="none" stroke="#DDD" stroke-width="0.8"/>
+  <text x="234" y="88" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#111" font-weight="700" text-anchor="middle">$138</text>
+  <!-- Small circle hole on tag -->
+  <circle cx="224" cy="85.5" r="1.5" fill="#EEE"/>
+
+  <!-- PRODUCT GRID SECTION -->
+  <rect x="0" y="123" width="320" height="77" fill="#FAFAFA"/>
+  <rect x="0" y="123" width="320" height="1" fill="#EBEBEB"/>
+
+  <text x="16" y="135" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#AAAAAA" letter-spacing="2.5">TRENDING NOW</text>
+  <text x="278" y="135" font-family="Helvetica, Arial, sans-serif" font-size="6.5" fill="#FF4A1C" letter-spacing="0.5">View all →</text>
+
+  <!-- Card 1 -->
+  <rect x="13" y="140" width="66" height="54" rx="4" fill="#FFFFFF"/>
+  <rect x="13" y="140" width="66" height="54" rx="4" fill="none" stroke="#E8E8E8" stroke-width="1"/>
+  <rect x="13" y="140" width="66" height="33" rx="4" fill="url(#ec_img1)"/>
+  <rect x="13" y="160" width="66" height="13" fill="url(#ec_img1)"/>
+  <rect x="27" y="146" width="38" height="22" rx="3" fill="#C0A898" opacity="0.75"/>
+  <path d="M27 152 L20 146 L27 146" fill="#B09888" opacity="0.7"/>
+  <path d="M65 152 L72 146 L65 146" fill="#B09888" opacity="0.7"/>
+  <text x="46" y="183" font-family="Georgia, serif" font-size="8.5" fill="#111" font-weight="700" text-anchor="middle">$89</text>
+  <text x="46" y="190" font-family="Helvetica, Arial, sans-serif" font-size="5" fill="#AAA" text-anchor="middle">Linen Shirt</text>
+
+  <!-- Card 2 -->
+  <rect x="85" y="140" width="66" height="54" rx="4" fill="#FFFFFF"/>
+  <rect x="85" y="140" width="66" height="54" rx="4" fill="none" stroke="#E8E8E8" stroke-width="1"/>
+  <rect x="85" y="140" width="66" height="33" rx="4" fill="url(#ec_img2)"/>
+  <rect x="85" y="160" width="66" height="13" fill="url(#ec_img2)"/>
+  <rect x="87" y="142" width="22" height="8" rx="4" fill="#FF4A1C"/>
+  <text x="98" y="148" font-family="Helvetica, Arial, sans-serif" font-size="5" fill="#FFF" font-weight="700" text-anchor="middle">NEW</text>
+  <rect x="99" y="147" width="36" height="22" rx="3" fill="#9AB8CC" opacity="0.75"/>
+  <text x="118" y="183" font-family="Georgia, serif" font-size="8.5" fill="#111" font-weight="700" text-anchor="middle">$145</text>
+  <text x="118" y="190" font-family="Helvetica, Arial, sans-serif" font-size="5" fill="#AAA" text-anchor="middle">Denim Jacket</text>
+
+  <!-- Card 3 -->
+  <rect x="157" y="140" width="66" height="54" rx="4" fill="#FFFFFF"/>
+  <rect x="157" y="140" width="66" height="54" rx="4" fill="none" stroke="#E8E8E8" stroke-width="1"/>
+  <rect x="157" y="140" width="66" height="33" rx="4" fill="url(#ec_img3)"/>
+  <rect x="157" y="160" width="66" height="13" fill="url(#ec_img3)"/>
+  <rect x="171" y="146" width="38" height="22" rx="3" fill="#8CB888" opacity="0.75"/>
+  <text x="190" y="183" font-family="Georgia, serif" font-size="8.5" fill="#111" font-weight="700" text-anchor="middle">$72</text>
+  <text x="190" y="190" font-family="Helvetica, Arial, sans-serif" font-size="5" fill="#AAA" text-anchor="middle">Linen Trousers</text>
+
+  <!-- Card 4 - SALE highlighted -->
+  <rect x="229" y="140" width="78" height="54" rx="4" fill="#FFFFFF"/>
+  <rect x="229" y="140" width="78" height="54" rx="4" fill="none" stroke="#FF4A1C" stroke-width="1.2"/>
+  <rect x="229" y="140" width="78" height="33" rx="4" fill="url(#ec_img4)"/>
+  <rect x="229" y="160" width="78" height="13" fill="url(#ec_img4)"/>
+  <rect x="231" y="142" width="32" height="8" rx="4" fill="#111"/>
+  <text x="247" y="148" font-family="Helvetica, Arial, sans-serif" font-size="5" fill="#FFF" font-weight="700" text-anchor="middle">SALE −30%</text>
+  <rect x="245" y="146" width="36" height="22" rx="3" fill="#D0C0A0" opacity="0.75"/>
+  <text x="268" y="178" font-family="Georgia, serif" font-size="8.5" fill="#FF4A1C" font-weight="700" text-anchor="middle">$98</text>
+  <text x="283" y="178" font-family="Georgia, serif" font-size="7" fill="#BBB" text-anchor="middle" text-decoration="line-through">$140</text>
+  <text x="268" y="190" font-family="Helvetica, Arial, sans-serif" font-size="5" fill="#AAA" text-anchor="middle">Midi Dress</text>
 </svg>

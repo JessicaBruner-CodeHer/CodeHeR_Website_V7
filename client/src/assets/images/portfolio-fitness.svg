@@ -1,28 +1,143 @@
 <svg width="320" height="200" viewBox="0 0 320 200" xmlns="http://www.w3.org/2000/svg">
-  <rect width="320" height="200" fill="#FF5722"/>
-  <polygon points="180,0 320,0 320,200 100,200" fill="#1A1A1A"/>
-  <line x1="100" y1="200" x2="200" y2="0"   stroke="#FF7A4A" stroke-width="0.8" opacity="0.3"/>
-  <line x1="120" y1="200" x2="220" y2="0"   stroke="#FF7A4A" stroke-width="0.8" opacity="0.25"/>
-  <line x1="140" y1="200" x2="240" y2="0"   stroke="#FF7A4A" stroke-width="0.8" opacity="0.2"/>
-  <rect x="0" y="0" width="320" height="26" fill="rgba(0,0,0,0.3)"/>
-  <text x="16" y="17" font-family="Arial" font-size="12" fill="#FFFFFF" font-weight="900" letter-spacing="3">APEX</text>
-  <rect x="255" y="6" width="50" height="14" rx="2" fill="#FFFFFF"/>
-  <text x="280" y="16" font-family="Arial" font-size="6.5" fill="#FF5722" font-weight="900" text-anchor="middle" letter-spacing="1">JOIN NOW</text>
-  <text x="185" y="16" font-family="Arial" font-size="6.5" fill="#FFFFFF" opacity="0.8" letter-spacing="1">PROGRAMS</text>
-  <text x="228" y="16" font-family="Arial" font-size="6.5" fill="#FFFFFF" opacity="0.8" letter-spacing="1">COACHES</text>
-  <text x="16" y="68"  font-family="Arial" font-size="22" fill="#FFFFFF" font-weight="900">PUSH</text>
-  <text x="16" y="92"  font-family="Arial" font-size="22" fill="#FFFFFF" font-weight="900">YOUR</text>
-  <text x="16" y="116" font-family="Arial" font-size="22" fill="#FFFFFF" font-weight="900">LIMIT.</text>
-  <rect x="16" y="126" width="90" height="18" rx="3" fill="#FFFFFF"/>
-  <text x="61" y="138" font-family="Arial" font-size="7.5" fill="#FF5722" font-weight="900" text-anchor="middle" letter-spacing="1">START FREE TRIAL</text>
-  <text x="215" y="80"  font-family="Arial" font-size="24" fill="#FFFFFF" font-weight="900" text-anchor="middle">50+</text>
-  <text x="215" y="92"  font-family="Arial" font-size="6"  fill="#FFFFFF" opacity="0.7" text-anchor="middle" letter-spacing="1">CLASSES WEEKLY</text>
-  <line x1="190" y1="100" x2="240" y2="100" stroke="#FFFFFF" stroke-width="0.5" opacity="0.3"/>
-  <text x="215" y="116" font-family="Arial" font-size="24" fill="#FFFFFF" font-weight="900" text-anchor="middle">5K+</text>
-  <text x="215" y="128" font-family="Arial" font-size="6"  fill="#FFFFFF" opacity="0.7" text-anchor="middle" letter-spacing="1">ACTIVE MEMBERS</text>
-  <line x1="190" y1="136" x2="240" y2="136" stroke="#FFFFFF" stroke-width="0.5" opacity="0.3"/>
-  <text x="215" y="152" font-family="Arial" font-size="24" fill="#FFFFFF" font-weight="900" text-anchor="middle">12</text>
-  <text x="215" y="164" font-family="Arial" font-size="6"  fill="#FFFFFF" opacity="0.7" text-anchor="middle" letter-spacing="1">LOCATIONS</text>
-  <rect x="0" y="170" width="320" height="30" fill="rgba(0,0,0,0.4)"/>
-  <text x="16" y="189" font-family="Arial" font-size="7" fill="#FF7A4A" letter-spacing="3">TRAIN HARD. RECOVER SMART. REPEAT.</text>
+  <defs>
+    <linearGradient id="fit_nav" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF4B2B"/>
+      <stop offset="100%" stop-color="#FF6B4A"/>
+    </linearGradient>
+    <linearGradient id="fit_bar_a" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FF4B2B"/>
+      <stop offset="100%" stop-color="#FF7A5A"/>
+    </linearGradient>
+    <linearGradient id="fit_bar_b" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFB347"/>
+      <stop offset="100%" stop-color="#FFCC6E"/>
+    </linearGradient>
+    <linearGradient id="fit_card1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FF4B2B"/>
+      <stop offset="100%" stop-color="#FF6B4A"/>
+    </linearGradient>
+    <linearGradient id="fit_prog" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF4B2B"/>
+      <stop offset="100%" stop-color="#FF7A5A"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="320" height="200" fill="#F8F6F4"/>
+
+  <!-- NAV - coral brand bar -->
+  <rect x="0" y="0" width="320" height="28" fill="url(#fit_nav)"/>
+
+  <!-- Logo -->
+  <rect x="14" y="8" width="4" height="12" rx="2" fill="#FFFFFF"/>
+  <rect x="20" y="8" width="4" height="8" rx="2" fill="#FFFFFF" opacity="0.7"/>
+  <rect x="26" y="8" width="4" height="12" rx="2" fill="#FFFFFF"/>
+  <text x="35" y="19" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#FFFFFF" font-weight="900" letter-spacing="2.5">APEX</text>
+
+  <!-- Nav links -->
+  <text x="130" y="17" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#FFD0C0" letter-spacing="1.5">TRAIN</text>
+  <text x="157" y="17" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#FFD0C0" letter-spacing="1.5">CLASSES</text>
+  <text x="192" y="17" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#FFD0C0" letter-spacing="1.5">COACHES</text>
+  <!-- CTA pill -->
+  <rect x="240" y="8" width="64" height="14" rx="7" fill="#FFFFFF"/>
+  <text x="272" y="17" font-family="Helvetica, Arial, sans-serif" font-size="6.5" fill="#FF4B2B" font-weight="900" text-anchor="middle" letter-spacing="1">FREE TRIAL</text>
+
+  <!-- HERO ROW -->
+  <rect x="0" y="28" width="320" height="68" fill="#FFFFFF"/>
+  <rect x="0" y="96" width="320" height="1" fill="#EBEBEB"/>
+
+  <!-- Left: headline -->
+  <text x="16" y="48" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#FF4B2B" letter-spacing="3" font-weight="700">PERFORMANCE TRAINING</text>
+  <text x="14" y="66" font-family="Georgia, 'Times New Roman', serif" font-size="18" fill="#111" font-weight="700" letter-spacing="-0.5">Train Smarter.</text>
+  <text x="14" y="84" font-family="Georgia, 'Times New Roman', serif" font-size="18" fill="#FF4B2B" font-weight="700" letter-spacing="-0.5">Get Results.</text>
+
+  <!-- Right: 3 stat pills -->
+  <rect x="186" y="36" width="50" height="26" rx="5" fill="#FFF5F2"/>
+  <rect x="186" y="36" width="50" height="26" rx="5" fill="none" stroke="#FFCFC0" stroke-width="1"/>
+  <text x="211" y="48" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#FF4B2B" font-weight="900" text-anchor="middle">50+</text>
+  <text x="211" y="58" font-family="Helvetica, Arial, sans-serif" font-size="5" fill="#AA8880" text-anchor="middle" letter-spacing="0.5">CLASSES/WK</text>
+
+  <rect x="242" y="36" width="50" height="26" rx="5" fill="#FFF5F2"/>
+  <rect x="242" y="36" width="50" height="26" rx="5" fill="none" stroke="#FFCFC0" stroke-width="1"/>
+  <text x="267" y="48" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#FF4B2B" font-weight="900" text-anchor="middle">5K+</text>
+  <text x="267" y="58" font-family="Helvetica, Arial, sans-serif" font-size="5" fill="#AA8880" text-anchor="middle" letter-spacing="0.5">MEMBERS</text>
+
+  <rect x="186" y="67" width="106" height="24" rx="5" fill="#FF4B2B"/>
+  <text x="239" y="81" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#FFFFFF" font-weight="900" text-anchor="middle" letter-spacing="1">START FREE TRIAL TODAY</text>
+
+  <!-- WEEKLY ACTIVITY CHART -->
+  <rect x="0" y="97" width="320" height="58" fill="#FFFFFF"/>
+  <rect x="0" y="155" width="320" height="1" fill="#EBEBEB"/>
+
+  <text x="16" y="111" font-family="Helvetica, Arial, sans-serif" font-size="6.5" fill="#111" font-weight="700" letter-spacing="0.5">Weekly Activity</text>
+  <text x="16" y="120" font-family="Helvetica, Arial, sans-serif" font-size="5.5" fill="#AAA">This week · 4 sessions logged</text>
+
+  <!-- Day bars chart -->
+  <!-- Mon -->
+  <text x="44" y="149" font-family="Helvetica, Arial, sans-serif" font-size="5.5" fill="#CCC" text-anchor="middle">M</text>
+  <rect x="38" y="131" width="12" height="16" rx="3" fill="#FFE8E2"/>
+
+  <!-- Tue -->
+  <text x="66" y="149" font-family="Helvetica, Arial, sans-serif" font-size="5.5" fill="#333" text-anchor="middle" font-weight="700">T</text>
+  <rect x="60" y="118" width="12" height="29" rx="3" fill="url(#fit_bar_a)"/>
+
+  <!-- Wed -->
+  <text x="88" y="149" font-family="Helvetica, Arial, sans-serif" font-size="5.5" fill="#CCC" text-anchor="middle">W</text>
+  <rect x="82" y="136" width="12" height="11" rx="3" fill="#FFE8E2"/>
+
+  <!-- Thu -->
+  <text x="110" y="149" font-family="Helvetica, Arial, sans-serif" font-size="5.5" fill="#333" text-anchor="middle" font-weight="700">T</text>
+  <rect x="104" y="122" width="12" height="25" rx="3" fill="url(#fit_bar_a)"/>
+
+  <!-- Fri -->
+  <text x="132" y="149" font-family="Helvetica, Arial, sans-serif" font-size="5.5" fill="#CCC" text-anchor="middle">F</text>
+  <rect x="126" y="140" width="12" height="7" rx="3" fill="#FFE8E2"/>
+
+  <!-- Sat -->
+  <text x="154" y="149" font-family="Helvetica, Arial, sans-serif" font-size="5.5" fill="#333" text-anchor="middle" font-weight="700">S</text>
+  <rect x="148" y="112" width="12" height="35" rx="3" fill="url(#fit_bar_b)"/>
+  <!-- Active dot indicator -->
+  <circle cx="154" cy="110" r="3" fill="#FFB347"/>
+  <circle cx="154" cy="110" r="5" fill="#FFB347" opacity="0.2"/>
+
+  <!-- Sun -->
+  <text x="176" y="149" font-family="Helvetica, Arial, sans-serif" font-size="5.5" fill="#CCC" text-anchor="middle">S</text>
+  <rect x="170" y="143" width="12" height="4" rx="2" fill="#FFE8E2"/>
+
+  <!-- Progress ring right side -->
+  <circle cx="225" cy="126" r="24" fill="none" stroke="#F0EDE8" stroke-width="5"/>
+  <circle cx="225" cy="126" r="24" fill="none" stroke="url(#fit_prog)" stroke-width="5" stroke-dasharray="108 44" stroke-dashoffset="38" stroke-linecap="round"/>
+  <text x="225" y="123" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#111" font-weight="900" text-anchor="middle">71%</text>
+  <text x="225" y="132" font-family="Helvetica, Arial, sans-serif" font-size="5" fill="#AAA" text-anchor="middle">WEEKLY GOAL</text>
+
+  <!-- Today's class card -->
+  <rect x="258" y="102" width="52" height="48" rx="5" fill="#FFF5F2"/>
+  <rect x="258" y="102" width="52" height="48" rx="5" fill="none" stroke="#FFCFC0" stroke-width="1"/>
+  <text x="284" y="114" font-family="Helvetica, Arial, sans-serif" font-size="5.5" fill="#FF4B2B" text-anchor="middle" letter-spacing="1" font-weight="700">NEXT CLASS</text>
+  <text x="284" y="127" font-family="Georgia, serif" font-size="12" fill="#111" font-weight="700" text-anchor="middle">6:30</text>
+  <text x="284" y="136" font-family="Helvetica, Arial, sans-serif" font-size="5" fill="#888" text-anchor="middle">AM · HIIT</text>
+  <rect x="264" y="140" width="40" height="8" rx="4" fill="#FF4B2B"/>
+  <text x="284" y="146" font-family="Helvetica, Arial, sans-serif" font-size="5.5" fill="#FFF" font-weight="700" text-anchor="middle">BOOK</text>
+
+  <!-- PROGRAM CARDS -->
+  <rect x="0" y="156" width="320" height="44" fill="#F8F6F4"/>
+
+  <text x="16" y="168" font-family="Helvetica, Arial, sans-serif" font-size="5.5" fill="#AAA" letter-spacing="2">POPULAR PROGRAMS</text>
+
+  <rect x="14" y="172" width="84" height="22" rx="4" fill="#FFFFFF"/>
+  <rect x="14" y="172" width="84" height="22" rx="4" fill="none" stroke="#E8E8E8" stroke-width="1"/>
+  <rect x="14" y="172" width="4" height="22" rx="2" fill="#FF4B2B"/>
+  <text x="25" y="182" font-family="Helvetica, Arial, sans-serif" font-size="6.5" fill="#111" font-weight="700">HIIT Foundations</text>
+  <text x="25" y="190" font-family="Helvetica, Arial, sans-serif" font-size="5.5" fill="#999">45 min · Beginner</text>
+
+  <rect x="104" y="172" width="84" height="22" rx="4" fill="#FFFFFF"/>
+  <rect x="104" y="172" width="84" height="22" rx="4" fill="none" stroke="#E8E8E8" stroke-width="1"/>
+  <rect x="104" y="172" width="4" height="22" rx="2" fill="#FFB347"/>
+  <text x="115" y="182" font-family="Helvetica, Arial, sans-serif" font-size="6.5" fill="#111" font-weight="700">Strength Builder</text>
+  <text x="115" y="190" font-family="Helvetica, Arial, sans-serif" font-size="5.5" fill="#999">60 min · Intermediate</text>
+
+  <rect x="194" y="172" width="84" height="22" rx="4" fill="#FFFFFF"/>
+  <rect x="194" y="172" width="84" height="22" rx="4" fill="none" stroke="#E8E8E8" stroke-width="1"/>
+  <rect x="194" y="172" width="4" height="22" rx="2" fill="#4BBFFF"/>
+  <text x="205" y="182" font-family="Helvetica, Arial, sans-serif" font-size="6.5" fill="#111" font-weight="700">Recovery Flow</text>
+  <text x="205" y="190" font-family="Helvetica, Arial, sans-serif" font-size="5.5" fill="#999">30 min · All levels</text>
 </svg>

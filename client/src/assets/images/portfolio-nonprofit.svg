@@ -1,42 +1,131 @@
 <svg width="320" height="200" viewBox="0 0 320 200" xmlns="http://www.w3.org/2000/svg">
-  <rect width="320" height="200" fill="#FFFBF5"/>
-  <rect x="0" y="0" width="320" height="8" fill="#C9973A"/>
-  <rect x="0" y="8" width="320" height="24" fill="#FFFFFF"/>
-  <line x1="0" y1="32" x2="320" y2="32" stroke="#F0E8D8" stroke-width="1"/>
-  <text x="16" y="24" font-family="Arial" font-size="8" fill="#1C1410" font-weight="900" letter-spacing="1">RISE</text>
-  <text x="44" y="24" font-family="Arial" font-size="5.5" fill="#C9973A" font-weight="700">FOUNDATION</text>
-  <rect x="255" y="14" width="50" height="13" rx="6" fill="#C9973A"/>
-  <text x="280" y="23" font-family="Arial" font-size="6" fill="#FFFFFF" font-weight="700" text-anchor="middle" letter-spacing="0.5">DONATE NOW</text>
-  <text x="172" y="23" font-family="Arial" font-size="6" fill="#666" letter-spacing="1">MISSION</text>
-  <text x="205" y="23" font-family="Arial" font-size="6" fill="#666" letter-spacing="1">PROGRAMS</text>
-  <text x="242" y="23" font-family="Arial" font-size="6" fill="#666" letter-spacing="1">IMPACT</text>
-  <text x="16" y="56" font-family="Arial" font-size="7" fill="#C9973A" letter-spacing="3" font-weight="700">BUILDING FUTURES SINCE 2008</text>
-  <text x="16" y="76" font-family="Georgia, serif" font-size="18" fill="#1C1410" font-weight="700">Every Person</text>
-  <text x="16" y="96" font-family="Georgia, serif" font-size="18" fill="#C9973A" font-weight="700">Deserves a Chance.</text>
-  <text x="16" y="112" font-family="Arial" font-size="6.5" fill="#6F6256">Connecting underserved communities</text>
-  <text x="16" y="123" font-family="Arial" font-size="6.5" fill="#6F6256">to jobs, housing, and opportunity.</text>
-  <rect x="16" y="132" width="70" height="16" rx="3" fill="#C9973A"/>
-  <text x="51"  y="143" font-family="Arial" font-size="7" fill="#FFFFFF" font-weight="700" text-anchor="middle">GET INVOLVED</text>
-  <rect x="92"  y="132" width="55" height="16" rx="3" fill="none" stroke="#C9973A" stroke-width="1.2"/>
-  <text x="119" y="143" font-family="Arial" font-size="7" fill="#C9973A" font-weight="700" text-anchor="middle">OUR IMPACT</text>
-  <rect x="185" y="36" width="125" height="128" rx="8" fill="#FFF5E8"/>
-  <rect x="185" y="36" width="125" height="128" rx="8" fill="none" stroke="#F0E0C0" stroke-width="1"/>
-  <text x="247" y="54"  font-family="Arial" font-size="7" fill="#C9973A" font-weight="700" text-anchor="middle" letter-spacing="1">2024 IMPACT</text>
-  <line x1="200" y1="60" x2="295" y2="60" stroke="#F0E0C0" stroke-width="1"/>
-  <text x="247" y="80"  font-family="Arial" font-size="22" fill="#1C1410" font-weight="900" text-anchor="middle">12,400</text>
-  <text x="247" y="91"  font-family="Arial" font-size="5.5" fill="#9C8B78" text-anchor="middle" letter-spacing="0.5">PEOPLE SERVED</text>
-  <line x1="200" y1="98" x2="295" y2="98" stroke="#F0E0C0" stroke-width="0.8"/>
-  <text x="247" y="116" font-family="Arial" font-size="22" fill="#1C1410" font-weight="900" text-anchor="middle">89%</text>
-  <text x="247" y="127" font-family="Arial" font-size="5.5" fill="#9C8B78" text-anchor="middle" letter-spacing="0.5">FOUND EMPLOYMENT</text>
-  <line x1="200" y1="134" x2="295" y2="134" stroke="#F0E0C0" stroke-width="0.8"/>
-  <text x="247" y="152" font-family="Arial" font-size="22" fill="#C9973A" font-weight="900" text-anchor="middle">$2.4M</text>
-  <text x="247" y="163" font-family="Arial" font-size="5.5" fill="#9C8B78" text-anchor="middle" letter-spacing="0.5">COMMUNITY INVESTMENT</text>
-  <rect x="0" y="168" width="320" height="32" fill="#1C1410"/>
-  <text x="16"  y="181" font-family="Arial" font-size="6" fill="#C9973A" letter-spacing="2">PARTNER ORGANIZATIONS</text>
-  <rect x="16"  y="185" width="40" height="10" rx="2" fill="#FFFFFF" opacity="0.1"/>
-  <rect x="62"  y="185" width="40" height="10" rx="2" fill="#FFFFFF" opacity="0.1"/>
-  <rect x="108" y="185" width="40" height="10" rx="2" fill="#FFFFFF" opacity="0.1"/>
-  <rect x="154" y="185" width="40" height="10" rx="2" fill="#FFFFFF" opacity="0.1"/>
-  <rect x="200" y="185" width="40" height="10" rx="2" fill="#FFFFFF" opacity="0.1"/>
-  <rect x="246" y="185" width="40" height="10" rx="2" fill="#FFFFFF" opacity="0.1"/>
+  <defs>
+    <linearGradient id="np_teal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1A8A78"/>
+      <stop offset="100%" stop-color="#22A090"/>
+    </linearGradient>
+    <linearGradient id="np_hero_bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0E5E52"/>
+      <stop offset="100%" stop-color="#154D44"/>
+    </linearGradient>
+    <linearGradient id="np_cream" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FBF7F0"/>
+      <stop offset="100%" stop-color="#F4EEE3"/>
+    </linearGradient>
+    <linearGradient id="np_stat_teal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1A8A78"/>
+      <stop offset="100%" stop-color="#148070"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="320" height="200" fill="#FBF7F0"/>
+
+  <!-- Top accent stripe -->
+  <rect x="0" y="0" width="320" height="4" fill="url(#np_teal)"/>
+
+  <!-- NAV -->
+  <rect x="0" y="4" width="320" height="26" fill="#FFFFFF"/>
+  <rect x="0" y="30" width="320" height="1" fill="#E8E0D4"/>
+
+  <!-- Logo mark + name -->
+  <circle cx="22" cy="17" r="7" fill="url(#np_teal)"/>
+  <!-- Bridge icon inside -->
+  <line x1="17" y1="20" x2="27" y2="20" stroke="#FFF" stroke-width="1.5"/>
+  <path d="M17 20 Q22 14 27 20" fill="none" stroke="#FFF" stroke-width="1.5"/>
+  <line x1="19" y1="14.5" x2="19" y2="20" stroke="#FFF" stroke-width="1"/>
+  <line x1="25" y1="14.5" x2="25" y2="20" stroke="#FFF" stroke-width="1"/>
+  <text x="33" y="15" font-family="Georgia, 'Times New Roman', serif" font-size="9" fill="#0E5E52" font-weight="700" letter-spacing="1">BRIDGE</text>
+  <text x="33" y="24" font-family="Helvetica, Arial, sans-serif" font-size="5" fill="#1A8A78" letter-spacing="2.5">FOUNDATION</text>
+
+  <!-- Nav links -->
+  <text x="140" y="20" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#888" letter-spacing="1">MISSION</text>
+  <text x="176" y="20" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#888" letter-spacing="1">PROGRAMS</text>
+  <text x="218" y="20" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#888" letter-spacing="1">IMPACT</text>
+  <rect x="255" y="10" width="50" height="14" rx="7" fill="url(#np_teal)"/>
+  <text x="280" y="19" font-family="Helvetica, Arial, sans-serif" font-size="6.5" fill="#FFF" font-weight="700" text-anchor="middle">DONATE</text>
+
+  <!-- LEFT: dark hero panel -->
+  <rect x="0" y="31" width="158" height="100" fill="url(#np_hero_bg)"/>
+
+  <!-- Decorative quote mark -->
+  <text x="10" y="75" font-family="Georgia, 'Times New Roman', serif" font-size="60" fill="#FFFFFF" opacity="0.06">"</text>
+
+  <text x="16" y="53" font-family="Helvetica, Arial, sans-serif" font-size="5.5" fill="#5FCAB8" letter-spacing="3.5">SINCE 2009</text>
+
+  <text x="14" y="70" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#FFFFFF" font-weight="700" letter-spacing="-0.3">Every person</text>
+  <text x="14" y="88" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#5FCAB8" font-weight="700" letter-spacing="-0.3">deserves a</text>
+  <text x="14" y="106" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#FFFFFF" font-weight="700" letter-spacing="-0.3">chance.</text>
+
+  <rect x="16" y="113" width="60" height="13" rx="6.5" fill="url(#np_teal)"/>
+  <text x="46" y="122" font-family="Helvetica, Arial, sans-serif" font-size="6.5" fill="#FFF" font-weight="700" text-anchor="middle">GET INVOLVED</text>
+
+  <rect x="82" y="113" width="60" height="13" rx="6.5" fill="none" stroke="#5FCAB8" stroke-width="1"/>
+  <text x="112" y="122" font-family="Helvetica, Arial, sans-serif" font-size="6.5" fill="#5FCAB8" font-weight="700" text-anchor="middle">OUR IMPACT</text>
+
+  <!-- RIGHT: Impact stats panel -->
+  <rect x="158" y="31" width="162" height="100" fill="url(#np_cream)"/>
+  <rect x="158" y="31" width="1" height="100" fill="#E0D8CC"/>
+
+  <text x="239" y="47" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#1A8A78" text-anchor="middle" letter-spacing="2" font-weight="700">2024 IMPACT REPORT</text>
+  <line x1="170" y1="51" x2="308" y2="51" stroke="#E0D8CC" stroke-width="1"/>
+
+  <!-- Stat card 1 -->
+  <rect x="166" y="56" width="66" height="42" rx="4" fill="#FFFFFF"/>
+  <rect x="166" y="56" width="66" height="42" rx="4" fill="none" stroke="#E0D8CC" stroke-width="1"/>
+  <rect x="166" y="56" width="66" height="4" rx="2" fill="url(#np_teal)"/>
+  <text x="199" y="74" font-family="Georgia, 'Times New Roman', serif" font-size="18" fill="#0E5E52" font-weight="700" text-anchor="middle">14K</text>
+  <text x="199" y="83" font-family="Helvetica, Arial, sans-serif" font-size="5" fill="#AAA" text-anchor="middle" letter-spacing="0.5">PEOPLE SERVED</text>
+  <!-- Tiny sparkline -->
+  <polyline points="172,94 178,92 184,90 190,87 196,89 202,85 208,82 214,84 220,80 226,82" fill="none" stroke="#1A8A78" stroke-width="1" opacity="0.5"/>
+
+  <!-- Stat card 2 -->
+  <rect x="238" y="56" width="66" height="42" rx="4" fill="url(#np_stat_teal)"/>
+  <text x="271" y="74" font-family="Georgia, 'Times New Roman', serif" font-size="18" fill="#FFFFFF" font-weight="700" text-anchor="middle">91%</text>
+  <text x="271" y="83" font-family="Helvetica, Arial, sans-serif" font-size="5" fill="#9FDED8" text-anchor="middle" letter-spacing="0.5">JOB PLACEMENT</text>
+  <polyline points="244,94 250,92 256,88 262,86 268,88 274,83 280,80 286,82 292,78 298,80" fill="none" stroke="#FFFFFF" stroke-width="1" opacity="0.4"/>
+
+  <!-- Stat row 2 -->
+  <rect x="166" y="103" width="66" height="24" rx="4" fill="#FFFFFF"/>
+  <rect x="166" y="103" width="66" height="24" rx="4" fill="none" stroke="#E0D8CC" stroke-width="1"/>
+  <text x="199" y="115" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#0E5E52" font-weight="700" text-anchor="middle">$3.2M</text>
+  <text x="199" y="122" font-family="Helvetica, Arial, sans-serif" font-size="5" fill="#AAA" text-anchor="middle">COMMUNITY INVESTMENT</text>
+
+  <rect x="238" y="103" width="66" height="24" rx="4" fill="#FFFFFF"/>
+  <rect x="238" y="103" width="66" height="24" rx="4" fill="none" stroke="#E0D8CC" stroke-width="1"/>
+  <text x="271" y="115" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#0E5E52" font-weight="700" text-anchor="middle">48</text>
+  <text x="271" y="122" font-family="Helvetica, Arial, sans-serif" font-size="5" fill="#AAA" text-anchor="middle">PARTNER ORGS</text>
+
+  <!-- STORIES SECTION -->
+  <rect x="0" y="131" width="320" height="42" fill="#FFFFFF"/>
+  <rect x="0" y="131" width="320" height="1" fill="#E8E0D4"/>
+
+  <text x="16" y="143" font-family="Helvetica, Arial, sans-serif" font-size="6" fill="#AAAAAA" letter-spacing="2">FEATURED STORIES</text>
+
+  <!-- Story 1 -->
+  <rect x="14" y="148" width="86" height="20" rx="4" fill="#F4EEE3"/>
+  <rect x="14" y="148" width="4" height="20" rx="2" fill="url(#np_teal)"/>
+  <text x="24" y="158" font-family="Helvetica, Arial, sans-serif" font-size="6.5" fill="#222" font-weight="700">Maria's Journey</text>
+  <text x="24" y="165" font-family="Helvetica, Arial, sans-serif" font-size="5.5" fill="#999">South Phoenix · Employment</text>
+
+  <!-- Story 2 -->
+  <rect x="106" y="148" width="86" height="20" rx="4" fill="#F4EEE3"/>
+  <rect x="106" y="148" width="4" height="20" rx="2" fill="url(#np_teal)"/>
+  <text x="116" y="158" font-family="Helvetica, Arial, sans-serif" font-size="6.5" fill="#222" font-weight="700">Tech for All</text>
+  <text x="116" y="165" font-family="Helvetica, Arial, sans-serif" font-size="5.5" fill="#999">Job Training · 2024</text>
+
+  <!-- Story 3 -->
+  <rect x="198" y="148" width="86" height="20" rx="4" fill="#F4EEE3"/>
+  <rect x="198" y="148" width="4" height="20" rx="2" fill="url(#np_teal)"/>
+  <text x="208" y="158" font-family="Helvetica, Arial, sans-serif" font-size="6.5" fill="#222" font-weight="700">Housing First</text>
+  <text x="208" y="165" font-family="Helvetica, Arial, sans-serif" font-size="5.5" fill="#999">Tucson · 48 families</text>
+
+  <!-- FOOTER -->
+  <rect x="0" y="173" width="320" height="27" fill="#0E5E52"/>
+  <text x="16" y="184" font-family="Helvetica, Arial, sans-serif" font-size="5.5" fill="#5FCAB8" letter-spacing="1.5">501(c)(3) NONPROFIT</text>
+  <text x="16" y="193" font-family="Helvetica, Arial, sans-serif" font-size="5" fill="#4A9080">EIN: 45-1234567 · Arizona</text>
+  <!-- Partner logos placeholder pills -->
+  <rect x="182" y="178" width="28" height="10" rx="3" fill="#FFFFFF" opacity="0.1"/>
+  <rect x="214" y="178" width="28" height="10" rx="3" fill="#FFFFFF" opacity="0.1"/>
+  <rect x="246" y="178" width="28" height="10" rx="3" fill="#FFFFFF" opacity="0.1"/>
+  <rect x="278" y="178" width="28" height="10" rx="3" fill="#FFFFFF" opacity="0.1"/>
 </svg>
