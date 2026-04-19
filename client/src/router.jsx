@@ -3,16 +3,9 @@ import { createContext, useContext, useState, useEffect } from 'react'
 const RouterContext = createContext(null)
 
 export function RouterProvider({ children }) {
-  const [path, setPath] = useState(window.location.pathname)
-
-  useEffect(() => {
-    const handlePop = () => setPath(window.location.pathname)
-    window.addEventListener('popstate', handlePop)
-    return () => window.removeEventListener('popstate', handlePop)
-  }, [])
+  const [path, setPath] = useState('/')
 
   function navigate(to) {
-    window.history.pushState({}, '', to)
     setPath(to)
     window.scrollTo(0, 0)
   }
