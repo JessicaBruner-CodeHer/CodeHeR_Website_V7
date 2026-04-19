@@ -6,10 +6,10 @@ import AboutTeaser       from '../sections/AboutTeaser.jsx'
 import ProjectCta        from '../sections/ProjectCta.jsx'
 
 export default function Home({ onQuoteClick }) {
-  useSeo({
-    title:       'CodeHe{R} LLC',
-    description: 'CodeHe{R} LLC: Workforce consulting and professional web development for growing businesses.',
-  })
+useSeo({
+  title: 'CodeHe{R} LLC | Business Solutions Firm',
+  description: 'CodeHe{R} delivers workforce consulting, web development, and digital infrastructure built for real business growth.'
+})
 
   return (
     <div>

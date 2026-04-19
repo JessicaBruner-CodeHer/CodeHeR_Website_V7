@@ -4,8 +4,12 @@ import { workforcePageContent as c } from '../assets/constants/serviceContent.js
 import Button            from '../ui/Button.jsx'
 import WorkforceStats    from '../sections/WorkforceStats.jsx'
 
+
 export default function WorkforceService({ onQuoteClick }) {
-  useSeo({ title: c.seo.title, description: c.seo.description })
+useSeo({
+  title: 'Workforce Solutions | CodeHe{R} LLC',
+  description: 'CodeHe{R} helps businesses identify hiring barriers, strengthen workforce strategy, and unlock overlooked talent.'
+})
 
   return (
     <div style={{ paddingTop: '80px' }}>

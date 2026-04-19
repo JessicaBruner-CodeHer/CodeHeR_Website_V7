@@ -2,12 +2,10 @@ import { useEffect } from 'react'
 
 export function useSeo({ title, description }) {
   useEffect(() => {
-    // ✅ Set page title
     if (title) {
       document.title = title
     }
 
-    // ✅ Set meta description
     if (description) {
       let meta = document.querySelector('meta[name="description"]')
 

@@ -25,7 +25,10 @@ const SERVICE_ICONS = {
 }
 
 export default function DigitalService({ onQuoteClick }) {
-  useSeo({ title: c.seo.title, description: c.seo.description })
+useSeo({
+  title: 'Digital Solutions | CodeHe{R} LLC',
+  description: 'CodeHe{R} builds websites and digital solutions designed to support long-term business growth.'
+})
 
   return (
     <div style={{ paddingTop: '80px' }}>
